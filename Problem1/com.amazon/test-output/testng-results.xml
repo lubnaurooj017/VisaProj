@@ -1,53 +1,101 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results total="4" passed="4" failed="0" skipped="0">
+<testng-results total="10" passed="10" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2018-05-20T07:16:42Z" name="Suite" finished-at="2018-05-20T07:17:04Z" duration-ms="21647">
+  <suite started-at="2018-05-20T12:00:30Z" name="Default suite" finished-at="2018-05-20T12:01:14Z" duration-ms="43989">
     <groups>
     </groups>
-    <test started-at="2018-05-20T07:16:42Z" name="amazonTestCases" finished-at="2018-05-20T07:17:04Z" duration-ms="21647">
+    <test started-at="2018-05-20T12:00:30Z" name="Default test" finished-at="2018-05-20T12:01:14Z" duration-ms="43989">
       <class name="amazonTest.amazonTestCases">
-        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:amazonTest.amazonTestCases@160ac7fb]" started-at="2018-05-20T15:16:42Z" name="beforeSuite" finished-at="2018-05-20T15:16:42Z" duration-ms="345" status="PASS">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:amazonTest.amazonTestCases@666b83a4]" started-at="2018-05-20T20:00:30Z" name="beforeSuite" finished-at="2018-05-20T20:00:30Z" duration-ms="331" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:amazonTest.amazonTestCases@160ac7fb]" started-at="2018-05-20T15:16:42Z" name="beforeTest" finished-at="2018-05-20T15:16:49Z" duration-ms="6488" status="PASS">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:amazonTest.amazonTestCases@666b83a4]" started-at="2018-05-20T20:00:30Z" name="beforeTest" finished-at="2018-05-20T20:00:36Z" duration-ms="5981" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:amazonTest.amazonTestCases@160ac7fb]" started-at="2018-05-20T15:16:49Z" name="beforeMethod" finished-at="2018-05-20T15:16:49Z" duration-ms="0" status="PASS">
+        <test-method signature="validatePageHeader()[pri:0, instance:amazonTest.amazonTestCases@666b83a4]" started-at="2018-05-20T20:00:36Z" name="validatePageHeader" description="Launch “www.amazon.com” page and validate page header!!" finished-at="2018-05-20T20:00:36Z" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatePageHeader -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:amazonTest.amazonTestCases@666b83a4]" started-at="2018-05-20T20:00:36Z" name="beforeMethod" finished-at="2018-05-20T20:00:36Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="validateErrorForIncorrectUserName()[pri:0, instance:amazonTest.amazonTestCases@160ac7fb]" started-at="2018-05-20T15:16:49Z" name="validateErrorForIncorrectUserName" description="Open a browser with http://www.amazon.com/ url and validate Error for incorrect username Login !!" finished-at="2018-05-20T15:16:52Z" duration-ms="3468" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:amazonTest.amazonTestCases@666b83a4]" started-at="2018-05-20T20:00:36Z" name="beforeMethod" finished-at="2018-05-20T20:00:36Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="validateErrorForIncorrectUserName()[pri:0, instance:amazonTest.amazonTestCases@666b83a4]" started-at="2018-05-20T20:00:36Z" name="validateErrorForIncorrectUserName" description="Click on login link and Provide incorrect username and validate error.!!" finished-at="2018-05-20T20:00:40Z" duration-ms="3692" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateErrorForIncorrectUserName -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:amazonTest.amazonTestCases@160ac7fb]" started-at="2018-05-20T15:16:53Z" name="beforeMethod" finished-at="2018-05-20T15:16:53Z" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="validateErrorForIncorrectPassword()[pri:0, instance:amazonTest.amazonTestCases@160ac7fb]" started-at="2018-05-20T15:16:53Z" name="validateErrorForIncorrectPassword" description="Open a browser with http://www.amazon.com/ url and validate Error for incorrect Password Login !!" finished-at="2018-05-20T15:16:55Z" duration-ms="2608" status="PASS">
+        <test-method signature="validateErrorForIncorrectPassword()[pri:0, instance:amazonTest.amazonTestCases@666b83a4]" started-at="2018-05-20T20:00:40Z" name="validateErrorForIncorrectPassword" description="Provide incorrect password and validate error." finished-at="2018-05-20T20:00:42Z" duration-ms="2038" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateErrorForIncorrectPassword -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:amazonTest.amazonTestCases@160ac7fb]" started-at="2018-05-20T15:16:55Z" name="beforeMethod" finished-at="2018-05-20T15:16:55Z" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:amazonTest.amazonTestCases@666b83a4]" started-at="2018-05-20T20:00:40Z" name="beforeMethod" finished-at="2018-05-20T20:00:40Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="validateReenterCorrectPassword()[pri:0, instance:amazonTest.amazonTestCases@160ac7fb]" started-at="2018-05-20T15:16:55Z" name="validateReenterCorrectPassword" description="Open a browser with http://www.amazon.com/ url and validate reenter correct Password Login !!" finished-at="2018-05-20T15:16:59Z" duration-ms="3346" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:amazonTest.amazonTestCases@666b83a4]" started-at="2018-05-20T20:00:42Z" name="beforeMethod" finished-at="2018-05-20T20:00:42Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="validateReenterCorrectPassword()[pri:0, instance:amazonTest.amazonTestCases@666b83a4]" started-at="2018-05-20T20:00:42Z" name="validateReenterCorrectPassword" description="reenter the correct password !!" finished-at="2018-05-20T20:00:44Z" duration-ms="2557" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateReenterCorrectPassword -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:amazonTest.amazonTestCases@160ac7fb]" started-at="2018-05-20T15:16:59Z" name="beforeMethod" finished-at="2018-05-20T15:16:59Z" duration-ms="1" status="PASS">
+        <test-method signature="validateSuccessfulLoginandPageHeader()[pri:0, instance:amazonTest.amazonTestCases@666b83a4]" started-at="2018-05-20T20:00:44Z" name="validateSuccessfulLoginandPageHeader" description="Provide correct username/password and validate home page header.!!" finished-at="2018-05-20T20:00:49Z" duration-ms="4754" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSuccessfulLoginandPageHeader -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:amazonTest.amazonTestCases@666b83a4]" started-at="2018-05-20T20:00:44Z" name="beforeMethod" finished-at="2018-05-20T20:00:44Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="validateSuccessfulLogin()[pri:0, instance:amazonTest.amazonTestCases@160ac7fb]" started-at="2018-05-20T15:16:59Z" name="validateSuccessfulLogin" description="Open a browser with http://www.amazon.com/ url and validate Successful Login !!" finished-at="2018-05-20T15:17:04Z" duration-ms="4521" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:amazonTest.amazonTestCases@666b83a4]" started-at="2018-05-20T20:00:49Z" name="beforeMethod" finished-at="2018-05-20T20:00:49Z" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validateSuccessfulLogin -->
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="validateSearchAndAddFirstProduct()[pri:0, instance:amazonTest.amazonTestCases@666b83a4]" started-at="2018-05-20T20:00:49Z" name="validateSearchAndAddFirstProduct" description="Search for iphone x 64 gb and click on 1st product and move to product page.!!" finished-at="2018-05-20T20:00:59Z" duration-ms="10163" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSearchAndAddFirstProduct -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:amazonTest.amazonTestCases@666b83a4]" started-at="2018-05-20T20:00:59Z" name="beforeMethod" finished-at="2018-05-20T20:00:59Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="validateItemNameAndPriceAndAddtoCart()[pri:0, instance:amazonTest.amazonTestCases@666b83a4]" started-at="2018-05-20T20:00:59Z" name="validateItemNameAndPriceAndAddtoCart" description="Capture product name and price and add 1 quantity to basket.!!" finished-at="2018-05-20T20:01:02Z" duration-ms="3176" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateItemNameAndPriceAndAddtoCart -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:amazonTest.amazonTestCases@666b83a4]" started-at="2018-05-20T20:01:02Z" name="beforeMethod" finished-at="2018-05-20T20:01:02Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="validateProductAddedtoCart()[pri:0, instance:amazonTest.amazonTestCases@666b83a4]" started-at="2018-05-20T20:01:02Z" name="validateProductAddedtoCart" description="Validate product is added into basket on product page !!" finished-at="2018-05-20T20:01:02Z" duration-ms="26" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateProductAddedtoCart -->
+        <test-method signature="validateProductPriceAndNameInCart()[pri:0, instance:amazonTest.amazonTestCases@666b83a4]" started-at="2018-05-20T20:01:02Z" name="validateProductPriceAndNameInCart" description="Vaidate product price and name on basket page. !!" finished-at="2018-05-20T20:01:05Z" duration-ms="2598" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateProductPriceAndNameInCart -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:amazonTest.amazonTestCases@666b83a4]" started-at="2018-05-20T20:01:02Z" name="beforeMethod" finished-at="2018-05-20T20:01:02Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:amazonTest.amazonTestCases@666b83a4]" started-at="2018-05-20T20:01:05Z" name="beforeMethod" finished-at="2018-05-20T20:01:05Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="validateProductPresentAfterLogoutAndRelogin()[pri:0, instance:amazonTest.amazonTestCases@666b83a4]" started-at="2018-05-20T20:01:05Z" name="validateProductPresentAfterLogoutAndRelogin" description="Logout and login again validate product in basket is present or not. !!" finished-at="2018-05-20T20:01:14Z" duration-ms="8975" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateProductPresentAfterLogoutAndRelogin -->
       </class> <!-- amazonTest.amazonTestCases -->
-    </test> <!-- amazonTestCases -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

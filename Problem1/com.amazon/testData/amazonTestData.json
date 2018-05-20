@@ -10,5 +10,8 @@
 	"ValidLogin":{
 		"username": "testamazon_lubna@yopmail.com",
 		"password": "password"
+	},
+	"ProductInfo":{
+		"ProductName": "iphone x 64 gb"
 	}
 }

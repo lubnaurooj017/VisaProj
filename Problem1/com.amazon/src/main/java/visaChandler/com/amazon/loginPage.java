@@ -13,11 +13,7 @@ import utility.businessClass;
 
 
 public class loginPage extends businessClass{
-	public String loginEmailId = "testamazon_lubna@yopmail.com";
-	public String loginPassword = "password";
-
-
-
+	
 	public By  accountList = By.id("nav-link-accountList");
 	public By signinBtn = By.className("nav-action-inner");
 	public By userName = By.id("ap_email");
@@ -26,7 +22,7 @@ public class loginPage extends businessClass{
 	public By signInSubmitBtn = By.id("signInSubmit");
 	public By loginAccountObj = By.xpath("//a[@id='nav-link-accountList']//span[@class='nav-line-1']");
 	public By signOutBtn = By.xpath("//a[@id='nav-item-signout-sa']");
-	
+
 
 	public By invalidUserError = By.className("a-list-item");
 	public By invalidPasswordError = By.className("a-list-item");
@@ -85,13 +81,17 @@ public class loginPage extends businessClass{
 		return dr.findElement(signOutBtn);
 	}
 
-
 	public void  pageRenderWait()
 	{
 		dr.manage().timeouts().implicitlyWait(25, TimeUnit.SECONDS);
 		new WebDriverWait(dr, 2000).until(dr -> ((JavascriptExecutor) dr).executeScript("return document.readyState").equals("complete"));
 	}
 
+	public String getPageHeader()
+	{
+		return dr.getTitle();
+	}
+	
 	public void enterUserName(String loginEmailId)
 	{
 		actions.moveToElement(accountList()).build().perform();
@@ -123,7 +123,7 @@ public class loginPage extends businessClass{
 		getContinueBtn().click();
 		getPassword().sendKeys(loginPassword);
 		getSignInSubmitBtn().click();
-		if (compareString(getLoginUserNameFromEmail(), getLoginAccountName()))
+		if (compareString(getLoginUserNameFromEmail(loginEmailId), getLoginAccountName()))
 		{
 			return true;
 		}
@@ -143,7 +143,7 @@ public class loginPage extends businessClass{
 	public boolean validateLogin(String loginEmailId, String loginPassword)
 	{	
 		loginToAmazon(loginEmailId, loginPassword);
-		if (compareString(getLoginUserNameFromEmail(), getLoginAccountName()))
+		if (compareString(getLoginUserNameFromEmail(loginEmailId), getLoginAccountName()))
 		{
 			return true;
 		}
@@ -168,7 +168,7 @@ public class loginPage extends businessClass{
 		return getLoginAccountObj().getText();
 	}
 
-	public String getLoginUserNameFromEmail()
+	public String getLoginUserNameFromEmail(String loginEmailId)
 	{
 		return "Hello, " + loginEmailId.split("@")[0];
 	}
@@ -201,5 +201,6 @@ public class loginPage extends businessClass{
 			return false;
 		}
 	}
+
 
 }
