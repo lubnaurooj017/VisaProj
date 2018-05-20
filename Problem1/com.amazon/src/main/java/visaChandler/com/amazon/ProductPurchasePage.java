@@ -15,7 +15,6 @@ public class ProductPurchasePage extends businessClass{
 	public By productName = By.id("productTitle");
 	public By productPrice = By.id("priceblock_ourprice");
 	public By qty = By.id("quantity");
-	
 	public By addtoCartBtn = By.id("add-to-cart-button");
 	public By proceedToCheckoutBtn = By.id("hlb-ptc-btn-native");
 	public By cart = By.id("nav-cart");
@@ -120,5 +119,6 @@ public class ProductPurchasePage extends businessClass{
 	{
 		return cartProductPrice().getText();
 	}
+	
 	
 }

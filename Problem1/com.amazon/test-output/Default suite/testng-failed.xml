@@ -5,8 +5,11 @@
     <classes>
       <class name="amazonTest.amazonTestCases">
         <methods>
+          <include name="validateProductPresentAfterLogoutAndRelogin"/>
           <include name="beforeMethod"/>
+          <include name="validateProductAddedtoCart"/>
           <include name="validateItemNameAndPriceAndAddtoCart"/>
+          <include name="validateProductPriceAndNameInCart"/>
           <include name="beforeSuite"/>
           <include name="beforeTest"/>
         </methods>

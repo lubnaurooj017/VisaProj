@@ -37,8 +37,8 @@ public class amazonTestCases extends businessClass{
 	public void beforeTest()
 	{
 		System.out.println("Before test");
-		String url = "http://www.amazon.com/";
-		dr.get(url);
+		//String url = "http://www.amazon.com/";
+		dr.get(browserUrl);
 		lp.pageRenderWait();
 	}
 
@@ -147,6 +147,7 @@ public class amazonTestCases extends businessClass{
 		pp.enterItemToSearchTextBox(productName);
 		pp.clickSearchBtn();
 		pp.clickFirstProduct();
+		//handleAlert(dr);
 		if(pp.getaddtoCartBtn().isDisplayed())
 		{
 			System.out.println("The product : " + productName + " is searched and clicked on first product and moved to Product Page Successfully");

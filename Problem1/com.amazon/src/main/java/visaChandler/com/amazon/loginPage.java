@@ -22,8 +22,6 @@ public class loginPage extends businessClass{
 	public By signInSubmitBtn = By.id("signInSubmit");
 	public By loginAccountObj = By.xpath("//a[@id='nav-link-accountList']//span[@class='nav-line-1']");
 	public By signOutBtn = By.xpath("//a[@id='nav-item-signout-sa']");
-
-
 	public By invalidUserError = By.className("a-list-item");
 	public By invalidPasswordError = By.className("a-list-item");
 
@@ -80,6 +78,8 @@ public class loginPage extends businessClass{
 	{
 		return dr.findElement(signOutBtn);
 	}
+	
+	
 
 	public void  pageRenderWait()
 	{

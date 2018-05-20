@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>amazonTestCases</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>4/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>6/4/0</td>
 </tr><tr>
-<td>Started on:</td><td>Sun May 20 15:16:42 SRET 2018</td>
+<td>Started on:</td><td>Sun May 20 21:07:55 SRET 2018</td>
 </tr>
-<tr><td>Total time:</td><td>21 seconds (21647 ms)</td>
+<tr><td>Total time:</td><td>140 seconds (140563 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,6 +67,316 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='amazonTest.amazonTestCases.validateItemNameAndPriceAndAddtoCart()'><b>validateItemNameAndPriceAndAddtoCart</b><br>Test class: amazonTest.amazonTestCases<br>Test method: Capture product name and price and add 1 quantity to basket.!!</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: Unable to locate element: #siNoCoverage\-announce
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;
+System info: host: &apos;Asifs-MBP&apos;, ip: &apos;2406:3003:2006:1348:94bf:455b:802a:9541%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.13.4&apos;, java.version: &apos;10.0.1&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 60.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 2589, moz:profile: /var/folders/d5/l4n8lw5s5yn..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 17.5.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 4d8c5ada-5dbf-3540-9267-b0ef9bd76a27
+*** Element info: {Using=id, value=siNoCoverage-announce}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:319)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:365)
+	at org.openqa.selenium.By$ById.findElement(By.java:218)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:311)
+	at visaChandler.com.amazon.ProductPurchasePage.noCoverageBtn(ProductPurchasePage.java:118)
+	at visaChandler.com.amazon.ProductPurchasePage.clickNoCoverage(ProductPurchasePage.java:124)
+	at amazonTest.amazonTestCases.validateItemNameAndPriceAndAddtoCart(amazonTestCases.java:169)
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1690050988", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1690050988'><pre>org.openqa.selenium.NoSuchElementException: Unable to locate element: #siNoCoverage\-announce
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;
+System info: host: &apos;Asifs-MBP&apos;, ip: &apos;2406:3003:2006:1348:94bf:455b:802a:9541%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.13.4&apos;, java.version: &apos;10.0.1&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 60.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 2589, moz:profile: /var/folders/d5/l4n8lw5s5yn..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 17.5.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 4d8c5ada-5dbf-3540-9267-b0ef9bd76a27
+*** Element info: {Using=id, value=siNoCoverage-announce}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:488)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:319)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:365)
+	at org.openqa.selenium.By$ById.findElement(By.java:218)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:311)
+	at visaChandler.com.amazon.ProductPurchasePage.noCoverageBtn(ProductPurchasePage.java:118)
+	at visaChandler.com.amazon.ProductPurchasePage.clickNoCoverage(ProductPurchasePage.java:124)
+	at amazonTest.amazonTestCases.validateItemNameAndPriceAndAddtoCart(amazonTestCases.java:169)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>25</td>
+<td>amazonTest.amazonTestCases@5b40ceb</td></tr>
+<tr>
+<td title='amazonTest.amazonTestCases.validateProductAddedtoCart()'><b>validateProductAddedtoCart</b><br>Test class: amazonTest.amazonTestCases<br>Test method: Validate product is added into basket on product page !!</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: Unable to locate element: #hlb\-ptc\-btn\-native
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;
+System info: host: &apos;Asifs-MBP&apos;, ip: &apos;2406:3003:2006:1348:94bf:455b:802a:9541%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.13.4&apos;, java.version: &apos;10.0.1&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 60.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 2589, moz:profile: /var/folders/d5/l4n8lw5s5yn..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 17.5.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 4d8c5ada-5dbf-3540-9267-b0ef9bd76a27
+*** Element info: {Using=id, value=hlb-ptc-btn-native}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:319)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:365)
+	at org.openqa.selenium.By$ById.findElement(By.java:218)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:311)
+	at visaChandler.com.amazon.ProductPurchasePage.getproceedToCheckoutBtn(ProductPurchasePage.java:65)
+	at amazonTest.amazonTestCases.validateProductAddedtoCart(amazonTestCases.java:186)
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace789982400", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace789982400'><pre>org.openqa.selenium.NoSuchElementException: Unable to locate element: #hlb\-ptc\-btn\-native
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;
+System info: host: &apos;Asifs-MBP&apos;, ip: &apos;2406:3003:2006:1348:94bf:455b:802a:9541%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.13.4&apos;, java.version: &apos;10.0.1&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 60.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 2589, moz:profile: /var/folders/d5/l4n8lw5s5yn..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 17.5.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 4d8c5ada-5dbf-3540-9267-b0ef9bd76a27
+*** Element info: {Using=id, value=hlb-ptc-btn-native}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:488)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:319)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:365)
+	at org.openqa.selenium.By$ById.findElement(By.java:218)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:311)
+	at visaChandler.com.amazon.ProductPurchasePage.getproceedToCheckoutBtn(ProductPurchasePage.java:65)
+	at amazonTest.amazonTestCases.validateProductAddedtoCart(amazonTestCases.java:186)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>25</td>
+<td>amazonTest.amazonTestCases@5b40ceb</td></tr>
+<tr>
+<td title='amazonTest.amazonTestCases.validateProductPresentAfterLogoutAndRelogin()'><b>validateProductPresentAfterLogoutAndRelogin</b><br>Test class: amazonTest.amazonTestCases<br>Test method: Logout and login again validate product in basket is present or not. !!</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: Unable to locate element: //a[@class=&apos;a-link-normal sc-product-link&apos;]//span[@class=&apos;a-size-medium sc-product-title a-text-bold&apos;]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;
+System info: host: &apos;Asifs-MBP&apos;, ip: &apos;2406:3003:2006:1348:94bf:455b:802a:9541%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.13.4&apos;, java.version: &apos;10.0.1&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 60.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 2589, moz:profile: /var/folders/d5/l4n8lw5s5yn..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 17.5.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 4d8c5ada-5dbf-3540-9267-b0ef9bd76a27
+*** Element info: {Using=xpath, value=//a[@class=&apos;a-link-normal sc-product-link&apos;]//span[@class=&apos;a-size-medium sc-product-title a-text-bold&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:319)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:421)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:311)
+	at visaChandler.com.amazon.ProductPurchasePage.cartProductName(ProductPurchasePage.java:75)
+	at visaChandler.com.amazon.ProductPurchasePage.getcartProductName(ProductPurchasePage.java:134)
+	at amazonTest.amazonTestCases.validateProductPresentAfterLogoutAndRelogin(amazonTestCases.java:225)
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2019157894", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2019157894'><pre>org.openqa.selenium.NoSuchElementException: Unable to locate element: //a[@class=&apos;a-link-normal sc-product-link&apos;]//span[@class=&apos;a-size-medium sc-product-title a-text-bold&apos;]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;
+System info: host: &apos;Asifs-MBP&apos;, ip: &apos;2406:3003:2006:1348:94bf:455b:802a:9541%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.13.4&apos;, java.version: &apos;10.0.1&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 60.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 2589, moz:profile: /var/folders/d5/l4n8lw5s5yn..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 17.5.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 4d8c5ada-5dbf-3540-9267-b0ef9bd76a27
+*** Element info: {Using=xpath, value=//a[@class=&apos;a-link-normal sc-product-link&apos;]//span[@class=&apos;a-size-medium sc-product-title a-text-bold&apos;]}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:488)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:319)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:421)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:311)
+	at visaChandler.com.amazon.ProductPurchasePage.cartProductName(ProductPurchasePage.java:75)
+	at visaChandler.com.amazon.ProductPurchasePage.getcartProductName(ProductPurchasePage.java:134)
+	at amazonTest.amazonTestCases.validateProductPresentAfterLogoutAndRelogin(amazonTestCases.java:225)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>30</td>
+<td>amazonTest.amazonTestCases@5b40ceb</td></tr>
+<tr>
+<td title='amazonTest.amazonTestCases.validateProductPriceAndNameInCart()'><b>validateProductPriceAndNameInCart</b><br>Test class: amazonTest.amazonTestCases<br>Test method: Vaidate product price and name on basket page. !!</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: Unable to locate element: //a[@class=&apos;a-link-normal sc-product-link&apos;]//span[@class=&apos;a-size-medium sc-product-title a-text-bold&apos;]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;
+System info: host: &apos;Asifs-MBP&apos;, ip: &apos;2406:3003:2006:1348:94bf:455b:802a:9541%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.13.4&apos;, java.version: &apos;10.0.1&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 60.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 2589, moz:profile: /var/folders/d5/l4n8lw5s5yn..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 17.5.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 4d8c5ada-5dbf-3540-9267-b0ef9bd76a27
+*** Element info: {Using=xpath, value=//a[@class=&apos;a-link-normal sc-product-link&apos;]//span[@class=&apos;a-size-medium sc-product-title a-text-bold&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:319)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:421)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:311)
+	at visaChandler.com.amazon.ProductPurchasePage.cartProductName(ProductPurchasePage.java:75)
+	at visaChandler.com.amazon.ProductPurchasePage.getcartProductName(ProductPurchasePage.java:134)
+	at amazonTest.amazonTestCases.validateProductPriceAndNameInCart(amazonTestCases.java:201)
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace481553464", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace481553464'><pre>org.openqa.selenium.NoSuchElementException: Unable to locate element: //a[@class=&apos;a-link-normal sc-product-link&apos;]//span[@class=&apos;a-size-medium sc-product-title a-text-bold&apos;]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;
+System info: host: &apos;Asifs-MBP&apos;, ip: &apos;2406:3003:2006:1348:94bf:455b:802a:9541%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.13.4&apos;, java.version: &apos;10.0.1&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 60.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 2589, moz:profile: /var/folders/d5/l4n8lw5s5yn..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 17.5.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 4d8c5ada-5dbf-3540-9267-b0ef9bd76a27
+*** Element info: {Using=xpath, value=//a[@class=&apos;a-link-normal sc-product-link&apos;]//span[@class=&apos;a-size-medium sc-product-title a-text-bold&apos;]}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:488)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:319)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:421)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:311)
+	at visaChandler.com.amazon.ProductPurchasePage.cartProductName(ProductPurchasePage.java:75)
+	at visaChandler.com.amazon.ProductPurchasePage.getcartProductName(ProductPurchasePage.java:134)
+	at amazonTest.amazonTestCases.validateProductPriceAndNameInCart(amazonTestCases.java:201)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>27</td>
+<td>amazonTest.amazonTestCases@5b40ceb</td></tr>
+</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -75,25 +385,35 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='amazonTest.amazonTestCases.validateErrorForIncorrectPassword()'><b>validateErrorForIncorrectPassword</b><br>Test class: amazonTest.amazonTestCases<br>Test method: Open a browser with http://www.amazon.com/ url and validate Error for incorrect Password Login !!</td>
+<td title='amazonTest.amazonTestCases.validateErrorForIncorrectPassword()'><b>validateErrorForIncorrectPassword</b><br>Test class: amazonTest.amazonTestCases<br>Test method: Provide incorrect password and validate error.</td>
 <td></td>
 <td>2</td>
-<td>amazonTest.amazonTestCases@160ac7fb</td></tr>
+<td>amazonTest.amazonTestCases@5b40ceb</td></tr>
 <tr>
-<td title='amazonTest.amazonTestCases.validateErrorForIncorrectUserName()'><b>validateErrorForIncorrectUserName</b><br>Test class: amazonTest.amazonTestCases<br>Test method: Open a browser with http://www.amazon.com/ url and validate Error for incorrect username Login !!</td>
+<td title='amazonTest.amazonTestCases.validateErrorForIncorrectUserName()'><b>validateErrorForIncorrectUserName</b><br>Test class: amazonTest.amazonTestCases<br>Test method: Click on login link and Provide incorrect username and validate error.!!</td>
 <td></td>
 <td>3</td>
-<td>amazonTest.amazonTestCases@160ac7fb</td></tr>
+<td>amazonTest.amazonTestCases@5b40ceb</td></tr>
 <tr>
-<td title='amazonTest.amazonTestCases.validateReenterCorrectPassword()'><b>validateReenterCorrectPassword</b><br>Test class: amazonTest.amazonTestCases<br>Test method: Open a browser with http://www.amazon.com/ url and validate reenter correct Password Login !!</td>
+<td title='amazonTest.amazonTestCases.validatePageHeader()'><b>validatePageHeader</b><br>Test class: amazonTest.amazonTestCases<br>Test method: Launch “www.amazon.com” page and validate page header!!</td>
+<td></td>
+<td>0</td>
+<td>amazonTest.amazonTestCases@5b40ceb</td></tr>
+<tr>
+<td title='amazonTest.amazonTestCases.validateReenterCorrectPassword()'><b>validateReenterCorrectPassword</b><br>Test class: amazonTest.amazonTestCases<br>Test method: reenter the correct password !!</td>
 <td></td>
 <td>3</td>
-<td>amazonTest.amazonTestCases@160ac7fb</td></tr>
+<td>amazonTest.amazonTestCases@5b40ceb</td></tr>
 <tr>
-<td title='amazonTest.amazonTestCases.validateSuccessfulLogin()'><b>validateSuccessfulLogin</b><br>Test class: amazonTest.amazonTestCases<br>Test method: Open a browser with http://www.amazon.com/ url and validate Successful Login !!</td>
+<td title='amazonTest.amazonTestCases.validateSearchAndAddFirstProduct()'><b>validateSearchAndAddFirstProduct</b><br>Test class: amazonTest.amazonTestCases<br>Test method: Search for iphone x 64 gb and click on 1st product and move to product page.!!</td>
+<td></td>
+<td>8</td>
+<td>amazonTest.amazonTestCases@5b40ceb</td></tr>
+<tr>
+<td title='amazonTest.amazonTestCases.validateSuccessfulLoginandPageHeader()'><b>validateSuccessfulLoginandPageHeader</b><br>Test class: amazonTest.amazonTestCases<br>Test method: Provide correct username/password and validate home page header.!!</td>
 <td></td>
 <td>4</td>
-<td>amazonTest.amazonTestCases@160ac7fb</td></tr>
+<td>amazonTest.amazonTestCases@5b40ceb</td></tr>
 </table><p>
 </body>
 </html>
