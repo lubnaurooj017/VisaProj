@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" allow-return-values="true">
+  <listeners>
+    <listener class-name="utility.listenerClass"/>
+  </listeners>
+  <test name="amazonTestCases(failed)">
+    <classes>
+      <class name="amazonTest.amazonTestCases">
+        <methods>
+          <include name="validateSuccessfulLogin"/>
+          <include name="beforeMethod"/>
+          <include name="beforeSuite"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- amazonTest.amazonTestCases -->
+    </classes>
+  </test> <!-- amazonTestCases(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,14 @@
+{
+	"InvalidUserLogin":{
+		"username": "urooj01234",
+		"password": "password"
+	},
+	"InvalidPwdLogin":{
+		"username": "testamazon_lubna@yopmail.com",
+		"password": "1234rgthf"
+	},
+	"ValidLogin":{
+		"username": "testamazon_lubna@yopmail.com",
+		"password": "password"
+	}
+}
